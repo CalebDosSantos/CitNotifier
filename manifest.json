@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "Citsmart Notifier",
+  "version": "1.0",
+
+  "description": "Exibir notificações pertinentes do Citsmart",
+
+  "content_scripts": [
+    {
+      "matches": ["*://centraldeservicos.planejamento.gov.br/*"],
+      "js": ["citNotifier.js"]
+    }
+  ]
+
+}
